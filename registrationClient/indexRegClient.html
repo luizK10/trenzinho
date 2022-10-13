@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Cadastro</title>
+    <script src="./indexRegClient.js"></script>
+    <link rel="stylesheet" href="./indexRegClient.css">
+</head>
+<body>
+    <div class="header">
+        Cadastro
+    </div>
+        
+    <div class="registrationContainer">
+
+        <div class="divName divInput">
+            <label for="name">Nome:
+                <input id="name" class="inputReg" type="name" maxlength="60">
+            </label>
+        </div>
+
+       <div class="divBirthDate divInput">
+            <label for="">Nascimento:
+                <input id="birthDate" class="inputReg" type="date">
+            </label>
+       </div>
+       
+       <div class="divCpf divInput">
+            <label for="cpf">CPF:
+                <input id="cpf" class="inputReg" type="number" maxlength="11">
+            </label>
+       </div>
+        
+       <div class="divRg divInput" >
+            <label for="rg">RG:
+                <input id="rg" class="inputReg" type="text" maxlength="15">
+            </label> 
+       </div>
+       <div class="divTelephone divInput">
+            <label class="label" for="telephone">Telefone:
+                <input id="number" class="inputReg" maxlength="20">
+            </label>
+       </div>
+       <div class="divEmail divInput">
+            <label class="label" for="email">Email:
+                <input id="email" class="inputReg" type="email" maxlength="60">
+            </label>
+       </div>
+       <div class="divAddress divInput">
+            <label class="label" for="address">Endereço:
+                <input id="address" class="inputReg" type="text" maxlength="60">    
+            </label>
+       </div>
+       <div class="divNumber divInput">
+            <label class="label" for="number">Número:
+                <input id="number" class="inputReg" type="number" maxlength="5">
+            </label>
+       </div>
+       <div class="divState divInput">
+            <label class="label" for="state">Estado:
+                <input id="state" class="inputReg" type="text" maxlength="25">
+            </label>
+       </div>
+       <div class="divCountry divInput">
+            <label class="label" for="country">País:
+                <input id="country" class="inputReg" type="text" maxlength="25">
+            </label>
+       </div>
+       <div class="divAdditional divInput">
+            <label class="label" for="additional">Complemento:
+                <input id="additional" class="inputReg" type="text" maxlength="100">
+            </label>
+       </div>
+               
+    </div>
+
+
+
+
+    <div class="baseboard">    
+        <button onclick="javascript:window.close()">Fechar</button>
+    </div>
+</body>
