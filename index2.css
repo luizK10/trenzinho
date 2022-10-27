@@ -1,0 +1,320 @@
+@font-face {
+    font-family: "showcard-gothic";
+    src: url(./database/Fonte-showcard-gothic/SHOWG.TTF);
+}
+@font-face {
+    font-family: "choko";
+    src: url(database/Fonte-Choko/ttf/Choko.ttf);
+}
+@font-face {
+    font-family: 'kidplay';
+    src: url(database/Fonte-kidplay/kidplay\ Preview.otf);
+}
+@font-face{
+    font-family: 'hey-comic';
+    src: url(database/Fonte-hey_comic/Hey\ Comic.ttf);
+}
+
+*{
+    margin: 0;
+}
+
+/*body {
+    background-color: rgb(252, 110, 110);
+}*/
+.containerMenu {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(58, 163, 255);
+}
+            .btnMenu {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                height: auto;
+                align-items: center;
+                background-color: rgb(58, 163, 255);
+                border: none;
+                font-size: 120%;
+                font-family: 'showcard-gothic';
+                color: white;
+            }
+
+                                @media (max-width:1000px){
+                                    .btnMenu {
+                                        font-size: 80%;                
+                                    }
+                                }
+
+                                .btnMenu:hover {
+                                    background-color: white;
+                                    color: rgb(255, 68, 68);
+                                    border-radius: 0 0 30% 30%;
+                                    border: solid 3px rgb(58, 163, 255);
+                                    transition: background 0.5s;
+                                }
+            .btnMenu6 {
+                display: flex;
+                width: 32%;
+                height: auto;
+            }
+                                .btnMenu6:hover {
+                                    height: 130%;
+                                }
+           
+            .btnLink {
+                display: flex;
+                width: 20%;
+                height: 100%;
+                text-decoration: none;
+            }
+                                .btnLink:hover {
+                                    height: 130%;
+                                }
+            .btnLinkToggle {
+                display: flex;
+                width: 32%;
+                height: 100%;
+                text-decoration: none;
+                font-size: 180%;
+            }
+                                .btnLinkToggle:hover {
+                                    height: 130%;
+                                }
+            .removeBtnMenuToggle {
+                display: flex;
+                width: 1%;
+            }
+.divFrase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    font-size: 150%;
+    /*border: 1px solid;*/
+    color: rgb(110, 107, 107);
+    font-family: 'hey-comic';
+}
+                    .divFraseLogo{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                        padding-top: 60px;
+                        width: 100%;
+                        height: 100px;
+                        font-size: 300%;
+                        /*border: 1px solid;*/
+                        color: rgb(150, 84, 211);
+                        font-family: 'hey-comic';
+
+                    }
+            
+.containerLogo {
+    display: flex;
+    padding-top: 60px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/trenzinhoTransparenteSemFumaca.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;    
+}
+
+.divProductPage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height:auto;
+}
+
+            .product { 
+                display: flex;
+                overflow: hidden;
+                width: 300px;
+                height: 200px;
+                margin: 2%;
+                border: 2px solid rgb(255, 49, 186);
+                border-radius: 20px;
+            }
+                                .productImg {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    width: 60%;
+                                    height: 100%;
+                                }
+                                                    .img {
+                                                        display: flex;
+                                                        width: 90%;
+                                                        height: 90%;
+                                                        border-radius: 20px;
+                                                    }
+
+                                .productDescription {
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    margin-top: 5%;
+                                    width: 40%;
+                                    height: 100%;
+                                }
+                                                    .titleProduct{
+                                                        display: flex;
+                                                        padding: 0;
+                                                        margin: 0;
+                                                        flex-direction: column;
+                                                        width: 100%;
+                                                        height: auto;
+                                                        font-family: 'hey-comic';
+                                                        font-size: 100%;
+                                                        color: rgb(80, 36, 122);
+                                                    }
+
+                                                    .subTitleProduct {
+                                                        display: flex;
+                                                        width: 100%;
+                                                        height: 15%;
+                                                        align-items: flex-end;
+                                                        margin-top: 0;
+                                                        color: rgba(1, 161, 1, 0.884);
+                                                        font-size: 90%;
+                                                    }
+                                                    .textProduct {
+                                                        display: flex;
+                                                        width: 100%;
+                                                        height: auto;
+                                                        margin-top: 0;
+                                                        align-items: flex-start;
+                                                        font-family: 'Courier New', Courier, monospace;
+                                                        font-size: 90%;
+                                                        white-space: initial;
+                                                        justify-content: center;
+                                                        color: rgb(71, 69, 69);
+                                                        margin-top: 0;
+                                                    }
+
+
+.containerModels {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+                    .imgModels {
+                        display: flex;
+                        width: 150px;
+                        height: 157.7%;
+                        margin: 5%;
+                        border-radius: 10%;
+                        border: 3px solid rgb(255, 49, 186)
+                    }
+
+.containerNetworks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+                        .networks {
+                            display: flex;
+                            width: 200px;
+                            height: 200px;
+                            margin: 2%;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                                            .imgNetwork {
+                                                display: flex;
+                                                width: 100%;
+                                                height: 100%;
+                                                border-radius: 5%;
+                                            }
+                                                                .shoptime{
+                                                                    border: 5px solid rgb(81, 79, 185);
+                                                                    border-radius: 5%;
+
+                                                                }
+                        @media (max-width: 1000px) {
+                            .networks {
+                                width: 100px;
+                                height: 100px;
+                            }
+                        }
+.catalog {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+                        .catalogGif {
+                            display: flex;
+                            width: 200px;
+                            height: 400px;
+                            border:10px solid rgb(110, 107, 107);
+                            border-radius: 5px;
+                        }
+
+.contact {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    color: rgb(71, 69, 69);
+}
+                        .contactIcon{
+                            display: flex;
+                            align-items: center;
+                            width: 200px;
+                            height: 200px;
+                            margin: 5%;
+                        }
+                        @meida (max-width){
+                            .contactIcon {
+                                width:100px;
+                                height: 100px;
+                            }
+                        }
+
+                        .phone {
+                            display: flex;
+                            text-align: center;
+                            justify-content: center;
+                            font-size: 150%;
+                            font-family: 'hey-comic';
+                        }
+
+                        .email {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            text-align: center;
+                            font-size: 150%;
+                            font-family: 'hey-comic'
+                        }
+.containerCopyright {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    border: 1px solid blue;
+}
+
+                    .copyright {
+                        display: flex;
+                        justify-content: center;
+                        width: 50%;
+                        height: auto;
+                        border: 1px solid green;
+                    }

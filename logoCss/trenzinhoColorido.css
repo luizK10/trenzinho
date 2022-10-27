@@ -1,0 +1,82 @@
+* {
+  margin:0px;
+}
+
+@font-face {
+  font-family: "showcard-gothic";
+  src:url(../database/Fonte-showcard-gothic/SHOWG.TTF)
+}
+
+.containerHeader {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background-color: aliceblue;
+}
+
+.containerHeader1 {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 50px;
+}
+
+                    .headerTop {
+                      display: flex;
+                      width: 400px;
+                      height: 50px;
+                    }
+
+                                      .letter {
+                                        display: flex;
+                                        width: 40px;
+                                        height: 50px;
+                                        justify-content: center;
+                                        background-color: aliceblue;
+                                        color: white;
+                                        font-size: 330%;
+                                        font-family: 'showcard-gothic';
+                                      }
+                                      .letterV {
+                                        display: flex;
+                                        border-radius: 0px 100% 0px 0px;
+                                      }
+                                      .letterT{
+                                        color:#13cd4a;
+                                      }
+                                      .letterR{
+                                        color:yellow;
+                                      }
+                                      .letterE{
+                                        color: red;
+                                      }
+                                      .letterN{
+                                        color: blue;
+                                      }
+                                      .letterZ{
+                                        color: #13cd4a;
+                                      }
+                                      .letterI{
+                                        color: yellow;
+                                      }
+                                      .letterN1{
+                                        color: red;
+                                      }
+                                      .letterH{
+                                        color: blue;
+                                      }
+                                      .letterO{
+                                        color:#13cd4a;
+                                      }
+
+
+
+                    .headerBotton {
+                      display: flex;
+                      width: 400px;
+                      height: 50px;
+                      background-color: aliceblue;
+                    }
+
+
+          

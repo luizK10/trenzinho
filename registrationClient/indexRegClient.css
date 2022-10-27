@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "showcard-gothic";
+    src: url(../database/Fonte-showcard-gothic/SHOWG.TTF);
+}
+
 * {
     margin: 0px;
 }
@@ -5,11 +10,15 @@
 .header {
     display: flex;
     flex-direction: row;
+    font-family: 'showcard-gothic';
+    font-size: 200%;
+    color: white    ;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 50px;
-    background-color: blue;
+    background-color: rgb(58, 163, 255);
+    border: none;
 }
 
 .registrationContainer {
@@ -17,28 +26,39 @@
     margin-left: 20%;
     margin-right: 20%;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
+    border-radius: 20px;
+    margin-top: 2%;
     width: 60%;
-    height: 100%;
-    background-color: rgb(156, 156, 202);
+    height: auto;
+    border: none;
+    background-color: rgb(58, 163, 255);
 }
 
-.divInput {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 8%;
-    border: 1px;
-    border-style: solid;
-}
+                    .divInput {
+                        display: flex;
+                        flex-direction: column;
+                        width: 95%;
+                        height: 8%;
+                        border: 1px;
+                        border-style: solid;
+                        border: none;
+                    }
 
-.inputReg {
-    display: flex;
-    width: 99%;
-}
+                                        .inputReg {
+                                            display: flex;
+                                            width: 99%;
+                                        }
 
+                                        .divAdditional {
+                                            margin-bottom: 2%;
+                                        }
+                                    
 .baseboard {
     display: flex;
+    margin-top: 1%;
     width: 100%;
     height: 50px;
     justify-content: center;
@@ -47,4 +67,10 @@
 .baseboard button {
     display: flex;
     width: 150px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'showcard-gothic';
+    font-size: 180%;
+    color: red;
+
 }

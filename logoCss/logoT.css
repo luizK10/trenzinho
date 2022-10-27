@@ -1,0 +1,51 @@
+.logo {
+    background-color:red;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    width: 20%;
+    height:190px;
+    border-style:solid;
+  }
+  .letter {
+    display: flex;
+    height:65%;
+    background-color:red;
+    color: white;
+    margin:0;
+    flex-direction:column;
+    font-size:140px;
+    /*font-family: 'Chango', cursive;*/
+    font-family: 'Wendy One', sans-serif;
+  }
+  
+  .tracoInferior {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color:white;
+    border-radius:20px 20px 0px 0px;
+    width: 50%;
+    height:10%;
+  }
+  .rodinhas {
+    display: flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .rodinhas1 {
+    display: flex;
+    margin-right:2%;
+    margin-top:1%;
+    justify-content: center;
+    align-items:center;
+    height: 30px;
+    width: 30px;
+    border-radius:50%;
+    background-color: white;
+  }
+  .rodinhas2 {
+    margin-left:2%;
+  }
